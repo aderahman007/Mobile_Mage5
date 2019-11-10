@@ -28,8 +28,6 @@
             android:src="@drawable/chat2"
             android:layout_marginLeft="200dp"
             />
-
-
     </LinearLayout>
 
     <RelativeLayout
