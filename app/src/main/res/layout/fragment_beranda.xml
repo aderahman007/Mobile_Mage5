@@ -254,6 +254,7 @@
 
                     <ImageView
                         android:id="@+id/modali"
+                        android:clickable="true"
                         android:layout_width="match_parent"
                         android:layout_height="900dp"
                         android:layout_marginLeft="20dp"
@@ -262,6 +263,7 @@
 
                 </RelativeLayout>
 
+<!--                Berita-->
 
                 <RelativeLayout
 
@@ -295,68 +297,6 @@
                                 android:src="@drawable/trans_gambar"
                                 />
                         </LinearLayout>
-
-                    </androidx.cardview.widget.CardView>
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="20dp"
-                        >
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:orientation="horizontal"
-                            android:layout_marginTop="410dp">
-                            <LinearLayout
-                                android:layout_width="180dp"
-                                android:layout_height="80dp"
-                                android:orientation="vertical"
-                                android:gravity="center">
-                                <ImageView
-                                    android:layout_width="50dp"
-                                    android:layout_height="50dp"
-                                    android:layout_marginTop="10dp"
-                                    android:src="@drawable/ic_action_location"/>
-                                <TextView
-                                    android:id="@+id/lokasi"
-                                    android:layout_width="200dp"
-                                    android:layout_height="50dp"
-                                    android:textAlignment="center"
-                                    android:text="Bandar Lampung"/>
-                            </LinearLayout>
-
-                            <LinearLayout
-                                android:layout_width="180dp"
-                                android:layout_height="80dp"
-                                android:orientation="vertical"
-                                android:gravity="center">
-                                <ImageView
-                                    android:layout_width="50dp"
-                                    android:layout_height="50dp"
-                                    android:layout_marginTop="10dp"
-                                    android:src="@drawable/ic_action_person"/>
-                                <TextView
-                                    android:id="@+id/nama"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="50dp"
-                                    android:textAlignment="center"
-                                    android:text="Bandar Lampung"/>
-                            </LinearLayout>
-                        </LinearLayout>
-                    </RelativeLayout>
-
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="match_parent"
-                        android:layout_height="200dp"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="20dp"
-                        android:layout_marginTop="500dp"
-                        app:cardBackgroundColor="@color/silver"
-                        android:elevation="30dp"
-                        app:cardCornerRadius="8dp"
-                        app:cardElevation="50dp">
 
                     </androidx.cardview.widget.CardView>
                 </RelativeLayout>
